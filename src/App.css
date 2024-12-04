@@ -1,0 +1,21 @@
+body {
+  background-color: #212529;
+  margin-inline: 20px;
+  color: white;
+}
+.paddingSpecial {
+  padding-left: 40px;
+}
+.animazioneCard {
+  transition: transform 0.1s; /* Aggiungiamo una transizione per un ingrandimento morbido */
+}
+
+.animazioneCard:hover {
+  transform: scale(1.03); /* Ingrandiamo la card quando il mouse passa sopra */
+}
+.fontSpecial {
+  font-size: 10px;
+}
+.fontSpecial2 {
+  font-size: 13px;
+}
