@@ -12,10 +12,7 @@ function App() {
         <TopBar />
         <Routes>
           <Route path="/TvShows" element={<TvShows />} />
-          <Route
-            path="/TvShows/MovieDetails/:movieId"
-            element={<MovieDetails />}
-          />
+          <Route path="/TvShows/MovieDetails/:id" element={<MovieDetails />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 const PrimaPartePagCen = () => {
   const navigate = useNavigate();
-
   const [film1, setFilm1] = useState([]);
   const getFilm = () => {
     fetch("https://www.omdbapi.com/?apikey=78694dd5&s=Shrek")

@@ -1,10 +1,10 @@
 import CentralPage from "./CentralPage";
 import Footer from "./Footer";
 
-const TvShows = ({ movie }) => {
+const TvShows = () => {
   return (
     <>
-      <CentralPage movie={movie} />
+      <CentralPage />
       <Footer />
     </>
   );
